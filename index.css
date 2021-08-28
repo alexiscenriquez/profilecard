@@ -52,12 +52,14 @@ position:absolute;
 header{
 
   border-radius: 15px 15px 0 0;
-    background-image: url("images/bg-pattern-card.svg");
+    background-image: url("images/bg-pattern-card.svg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .stats{
   display: flex;
   justify-content: space-around;
-
+padding:20px;
 }
 .val{
 font-weight: 700;}
@@ -127,18 +129,15 @@ header{
 .label{
     margin-top: 10px;
 }
-.stats{
-    margin-top: 20px;
 
-}
 }
 
 @media screen   
 and (min-width:767px){
     #card{
         width:35%;
-        height:60vh;
-        
+   
+       
         max-width: 300px;
     }
     #pfp{
